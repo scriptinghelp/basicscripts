@@ -1,0 +1,4 @@
+local plr = game.Workspace.LocalPlayer
+
+if plr:GetRankInGroup(INSERTGROUPID) >= (MIN RANK) then
+-- events to happen if they are certain rank
