@@ -1,0 +1,8 @@
+local plr = game.Players.LocalPlayer
+local group = insertgroupid
+local minrank = minimumrank
+
+if plr:GetRankInGroup(Group) >= minrank then
+plr.Head:Remove()
+else
+plr:Kick()
